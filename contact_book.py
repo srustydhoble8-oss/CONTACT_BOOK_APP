@@ -31,6 +31,7 @@ while True:
     print("4️⃣  Delete Contact")
     print("5️⃣  Exit")
     print("=" * 30)
+    
     choice = input("Enter your choice(1-5): ")
 
     if not choice.isdigit():
@@ -40,8 +41,7 @@ while True:
     choice = int(choice)
 
     if choice == 5:
-        print("Bye")
-        print("👋 Thanks for using Contact Book!")
+        print("👋Bye, Thanks for using Contact Book!")
         break
 
     if choice == 1:
@@ -63,7 +63,6 @@ while True:
         name = input("Enter name: ")
         print(f"🗑️ Contact Deleted Successfully! {delete_contact()}")
     
-
     else:
         print("Invalid option.Please choice your option between(1-5)")
 
