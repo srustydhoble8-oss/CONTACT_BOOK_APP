@@ -1,4 +1,4 @@
-contacts = {}
+ contacts = {}
 
 def add_contact():
     contacts[name] = mobile
@@ -31,6 +31,7 @@ while True:
     print("4️⃣  Delete Contact")
     print("5️⃣  Exit")
     print("=" * 30)
+    
     
     choice = input("Enter your choice(1-5): ")
 
